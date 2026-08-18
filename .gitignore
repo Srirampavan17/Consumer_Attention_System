@@ -1,0 +1,90 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+venv311/
+.venv/
+env/
+
+# =========================
+# Python Build
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+Frontend/node_modules/
+Frontend/dist/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Cache
+# =========================
+.cache/
+
+# =========================
+# Large AI / ML files
+# =========================
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Video files
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# =========================
+# Generated images / debug
+# =========================
+debug_*.jpg
+debug_*.png
